@@ -12,7 +12,7 @@ jobs:
       - name: Bajar código
         uses: actions/checkout@v4
       - name: Probar código
-        run: python3 test.py
+        run: python3 main.py
       - name: Crear imagen Docker
         run: docker build -t oierur05/holamundo .
       - name: Probar contenedor
