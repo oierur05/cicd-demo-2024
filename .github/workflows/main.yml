@@ -12,4 +12,4 @@ jobs:
       - name: Bajar código
         uses: actions/checkout@v4
       - name: Probar código
-        run: python3 main.py
+        run: python3 test.py
